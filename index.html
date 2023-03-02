@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
-
+    
+    <script src="package.json"></script>
     <title>Document</title>
 </head>
 <body>
@@ -22,6 +23,11 @@
       <div id="Vote" class="w3-container city">
         <h2>VOTE</h2>
         <p>Love Cats</p>
+        <div id="loveCat">Love</div>
+        <div id="dislikeCat"></div>
+        <div id="catImg"></div>
+        <button class="button" id="jokeBtn" value="Joke">Joke</button>
+        <div id="JokeHere"></div>
       </div>
       
       <div id="Breeds" class="w3-container city" style="display:none">
@@ -37,7 +43,9 @@
       <div id="Favourites" class="w3-container city" style="display:none">
         <h2>Favourites</h2>
         <p>These are my favourites</p>
+        <div id="favCats"></div>
       </div>
     </div>
+    <script src="server2.js"></script>
 </body>
 </html>

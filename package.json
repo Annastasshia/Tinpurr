@@ -4,7 +4,8 @@
   "description": "Single Cat matching app - Find your purrfect match",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/Annastasshia/Tinpurr#readme",
   "dependencies": {
+    "ajax": "^0.0.4",
     "express": "^4.18.2",
-    "nodemon": "^2.0.21"
+    "jquery": "^3.6.3",
+    "node": "^19.6.1"
   }
 }
