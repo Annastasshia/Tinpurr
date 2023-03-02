@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+body *{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+.but {
+    border-radius: 5rem !IMPORTANT;
+    border: none !important;
+    padding: 1rem;
+    box-shadow: 4px 5px 10px #0000006b;
+    margin-right: 1rem !important;
+    min-width: 130px;
+    background-color: #fff;
+    color: #3030b9 ;
+    font-weight: bold !important;
+    transition: 0.5s;
+}
+.but:hover {
+    background-color: #3030b9;
+    color: #fff;
+    /* transition: auto; */
+}
+.but img {
+    max-width: 40px;
+}
+
+.but {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
