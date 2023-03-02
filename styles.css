@@ -36,3 +36,21 @@ body *{
     flex-direction: row;
     align-items: center;
 }
+
+.centerForAnna {
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2{
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+}
+h2 span {
+    color: #B28AE3;
+}
+
