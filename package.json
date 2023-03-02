@@ -1,0 +1,23 @@
+{
+  "name": "tinpurr",
+  "version": "1.0.0",
+  "description": "Single Cat matching app - Find your purrfect match",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annastasshia/Tinpurr.git"
+  },
+  "author": "Team Observant Owls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annastasshia/Tinpurr/issues"
+  },
+  "homepage": "https://github.com/Annastasshia/Tinpurr#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
