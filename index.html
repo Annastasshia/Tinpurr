@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="package.json"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="centerForAnna">
+        <h1>TINPURR</h1>    <h2>Where you can find your <span>pawfect</span> match</h2>
+    <div class="buttons">
+        <button class="but" onclick="openOption('Vote')"><img src="img/pawprint.png"><div>Vote</div></button>
+        <button class="but" onclick="openOption('Breeds')"><img src="img/pawprint.png"><div>Breeds</div></button>
+        <button class="but" onclick="openOption('Images')"><img src="img/pawprint.png"><div>Images/Search</div></button>
+        <button class="but" onclick="openOption('Favourites')"><img src="img/pawprint.png"><div>Favourties</div></button>
+        <button class="but" onclick="openOption('Joke')"><img src="img/pawprint.png"><div>Joke</div></button>
+      </div>
+      
+      <div id="Vote" class="w3-container city">
+        <h2>VOTE</h2>
+        <p>Love Cats</p>
+        <div id="loveCat"><button id="loveCatBtn">Love</button></div>
+        <div id="dislikeCat"><button id="hateCatBtn">Hate</button></div>
+        <div id="catImg"></div>
+      </div>
+      
+      <div id="Breeds" class="w3-container city" style="display:none">
+        <h2>Breeds</h2>
+        <p>More Breeds Please</p> 
+        <button class="button" id="breedBtn" >Breed List</button>
+        <div id="breedHere"></div>
+      </div>
+      
+      <div id="Images" class="w3-container city" style="display:none">
+        <h2>Images</h2>
+        <p>Look more cats</p>
+      </div>
+
+      <div id="Favourites" class="w3-container city" style="display:none">
+        <h2>Favourites</h2>
+        <p>These are my favourites</p>
+        <div id="favCats"></div>
+      </div>
+      <div id="Joke" class="w3-container city" style="display:none">
+      <h2>JOKE</h2>
+      <button class="button" id="jokeBtn" >Joke</button>
+      <div id="jokeHere"></div>
+    </div>
+    </div>
+    <script src="breedServer.js"></script>
+    <script src="jokeServer.js"></script>
+    <script src="voteServer.js"></script>
+</body>
+</html>
